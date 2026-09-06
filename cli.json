@@ -1,0 +1,28 @@
+{
+ "runtime": {
+  "type": "node",
+  "version": "18"
+ },
+ "init": {
+  "darwin": "npm install -g git+https://github.com/bluebigman/text-toolbox-cli.git",
+  "linux": "npm install -g git+https://github.com/bluebigman/text-toolbox-cli.git",
+  "win32": "npm install -g git+https://github.com/bluebigman/text-toolbox-cli.git"
+ },
+ "auth": {
+  "darwin": "text-toolbox auth",
+  "linux": "text-toolbox auth",
+  "win32": "text-toolbox.cmd auth"
+ },
+ "unAuth": {
+  "darwin": "text-toolbox unAuth",
+  "linux": "text-toolbox unAuth",
+  "win32": "text-toolbox.cmd unAuth"
+ },
+ "status": {
+  "darwin": "text-toolbox status",
+  "linux": "text-toolbox status",
+  "win32": "text-toolbox.cmd status"
+ },
+ "statusMatch": "ok",
+ "authStrategy": "none"
+}

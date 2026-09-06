@@ -1,0 +1,18 @@
+{
+ "name": "text-toolbox-cli",
+ "type": "cli",
+ "version": "0.1.0",
+ "displayName": "文本工具箱",
+ "description": "本地文本处理：字数统计/Base64与URL编解码/JSON格式化/哈希/大小写转换。纯本地不联网，不采集任何数据。",
+ "icon": "icon.svg",
+ "skills": [
+  "skills/SKILL.md"
+ ],
+ "minWorkbuddyVersion": "4.22.15",
+ "examples_zh": [
+  "统计这段话的字数和行数",
+  "把这段内容做 base64 编码",
+  "格式化这个 JSON"
+ ],
+ "examples_en": []
+}
